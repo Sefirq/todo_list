@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.task-box {
+  background-color: rgba(176, 176, 176, 0.25);
+  border-radius: 25px;
+  min-width: 500px;
+  display: table;
+  text-align: center;
+  margin: 50px auto 50px auto;
+  color: black;
+}
+.task-box * {
+  margin: 5px 20px 5px 20px;
+  font-size: 30px;
+}
+.task-box .item:first-child {
+  margin-top: 20px
+}
+.task-box .item:last-child {
+  margin-bottom: 20px;
+}
+.task-box hr {
+
+}
+.todo-list__undone-tasks-count {
+  font-size: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #bbbbbb;
+  border-radius: 25px;
+  display: table;
+  text-align: center;
+}
+.todo-list__undone-tasks-count * {
+  margin: 5px 20px 5px 20px;
+}
+.choose-menu {
+  border-top: 4px black;
+  margin-right: auto;
+  margin-left: auto;
+  display: table;
+}
+.choose-menu button {
+  font-size: 15px;
+}
+.done {
+  text-decoration: line-through;
+  color: #aaaaaa
+}
+.delete-button {
+  font-size: 15px;
+}
